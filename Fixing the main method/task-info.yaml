@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+
+        public static int main(String[] args) {
+            System.out.println("Hello, Java!");
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2507#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:5: error: incompatible types: missing return value
+            return;
+            ^
+    1 error
+  time: Thu, 07 Jan 2021 03:02:09 UTC
+record: -1
