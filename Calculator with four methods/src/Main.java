@@ -1,0 +1,13 @@
+class SimpleCalculator {
+    // Implement your methods here
+    public static void subtractTwoNumbers...
+
+
+    public static void sumTwoNumbers...
+
+
+    public static void divideTwoNumbers...
+
+
+    public static void multiplyTwoNumbers...
+}
