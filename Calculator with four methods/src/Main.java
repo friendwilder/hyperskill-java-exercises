@@ -1,13 +1,25 @@
 class SimpleCalculator {
     // Implement your methods here
-    public static void subtractTwoNumbers...
+    public static void subtractTwoNumbers(long a, long b) {
+        System.out.printf("%d", a - b);
+    }
 
 
-    public static void sumTwoNumbers...
+    public static void sumTwoNumbers(long a, long b) {
+        System.out.printf("%d", a + b);
+    }
 
 
-    public static void divideTwoNumbers...
+    public static void divideTwoNumbers(long a, long b) {
+        if (b == 0) {
+            System.out.println("Division by 0!");
+        } else {
+            System.out.printf("%d", a / b);
+        }
+    }
 
 
-    public static void multiplyTwoNumbers...
+    public static void multiplyTwoNumbers(long a, long b) {
+        System.out.printf("%d", a * b);
+    }
 }
