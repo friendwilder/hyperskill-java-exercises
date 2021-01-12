@@ -6,7 +6,7 @@ public class Main {
         // write a body here
         if (a >= b && a >= c) {
             return 1;
-        } else  if ( b >= c) {
+        } else  if (b >= c) {
             return 2;
         } else {
             return 3;

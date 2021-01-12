@@ -5,7 +5,7 @@ class Box {
     double length;
 
     // write a method here
-    public double getVolume () {
+    public double getVolume() {
         return this.height * this.length * this.width;
     }
 }

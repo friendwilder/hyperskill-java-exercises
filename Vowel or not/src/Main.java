@@ -4,13 +4,14 @@ public class Main {
 
     public static boolean isVowel(char ch) {
         // write your code here
-    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
-    ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
-        return true;
-    }
-    else {
-        return  false;
-    }
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+        ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') 
+        {
+            return true;
+        }
+        else {
+            return  false;
+        }
     }
 
     /* Do not change code below */
